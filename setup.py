@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 CORE_REQUIREMENTS = [
-    "mlflow-skinny[databricks]",
+    "mlflow-skinny[databricks]==2.16.2",
     "databricks-cli==0.18.0",
     "packaging>=20.0",        # For version parsing and compatibility
     "pandas>=1.5.2",
